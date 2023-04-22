@@ -1,0 +1,28 @@
+{
+  "name": "code-creator",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "bin": {
+    "cc": "./build/cli.js"
+  },
+  "main": "/build/cli.js",
+  "scripts": {
+    "test": "vitest run",
+    "build": "tsc",
+    "dev": "tsc -w"
+  },
+  "keywords": [],
+  "author": "wenZheng",
+  "license": "ISC",
+  "dependencies": {
+    "@types/fs-extra": "^11.0.1",
+    "@types/inquirer": "^9.0.3",
+    "@types/node": "^18.15.13",
+    "commander": "^10.0.1",
+    "fs-extra": "^11.1.1",
+    "inquirer": "^9.1.5",
+    "typescript": "^5.0.4",
+    "vitest": "^0.30.1"
+  }
+}

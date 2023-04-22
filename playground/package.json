@@ -1,0 +1,12 @@
+{
+  "name": "playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test-create": "nodemon ../build/cli.js create"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
